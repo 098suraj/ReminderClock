@@ -9,7 +9,7 @@ on:
       - 'master'
 
 jobs: 
- 
+   
   generate-apk: # Job to generate debug apk
     name: ⚙️Generate APK
     runs-on: ubuntu-latest
@@ -57,6 +57,7 @@ jobs:
   create-release: # Job to create a new github release and upload the generated apk
     name: 🎉 Create Release
     needs: [ generate-apk ]
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - name: get repository name
@@ -69,6 +70,7 @@ jobs:
 
       - name: Create Release
         id: create_release
+        
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
