@@ -1,4 +1,4 @@
-# ReminderClock
+# ReminderClock.
 - Follows Android design and development  practices with Compose.
 - Explore the possibilities of creating Ui and Ux using a Mobile App which we can use on a daily base.
 - Build a fully functional Android app built entirely with Kotlin and Jetpack Compose.
