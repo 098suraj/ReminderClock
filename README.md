@@ -2,7 +2,8 @@
 - Follows Android design and development  practices with Compose.
 - Explore the possibilities of creating Ui and Ux using a Mobile App which we can use on a daily base.
 - Build a fully functional Android app built entirely with Kotlin and Jetpack Compose.
-  https://user-images.githubusercontent.com/30719688/221354674-1370e5a7-5f50-49c6-91cc-2b6e3ac0fb91.mp4
+
+https://user-images.githubusercontent.com/30719688/221354674-1370e5a7-5f50-49c6-91cc-2b6e3ac0fb91.mp4
   
 ## 🛠 Built With
 
