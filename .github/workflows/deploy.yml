@@ -9,7 +9,6 @@ on:
       - 'master'
 
 jobs: 
-   
   generate-apk: # Job to generate debug apk
     name: ⚙️Generate APK
     runs-on: ubuntu-latest
@@ -57,7 +56,10 @@ jobs:
   create-release: # Job to create a new github release and upload the generated apk
     name: 🎉 Create Release
     needs: [ generate-apk ]
-    permissions: write-all
+    permissions:
+     actions: read
+     contents: read
+     security-events: write
     runs-on: ubuntu-latest
     steps:
       - name: get repository name
