@@ -33,4 +33,4 @@ View-Model)***](https://developer.android.com/jetpack/docs/guide#recommended-app
 Android Studio Flamingo
 
 ## 🤝 Contribute
-If you want to contribute to this app, you're always welcome!
+If you want to contribute to this app, you're always welcome! 🌟
